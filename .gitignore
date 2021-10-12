@@ -1,0 +1,14 @@
+.DR_Store
+.idea/
+.idea/*
+.vscode
+*.sublime*
+npm-debug.*
+.jshintrc*
+
+
+
+dist/
+node_modules/
+package-lock.json
+app/css/*
