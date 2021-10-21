@@ -13,7 +13,7 @@ let ul = document.querySelector('ul');
 for (let i = 0; i < li.length; i++) {
 	li[i].addEventListener('mouseenter', () => {
 
-		ul.remove();
+		ul.style.display = 'none';
 	});
 }
 
@@ -97,18 +97,15 @@ const drawFigure = function (elem, color, top, left, size, height) {
 document.addEventListener('keydown', function (event) {
 	if (event.key == 'c') {
 		drawFigure('круг', 'green', 100, 200, 40);
-	}
-});
-document.addEventListener('keydown', function (event) {
-	if (event.key == 's') {
+	} else if (event.key == 's') {
 		drawFigure('квадрат', 'red', 100, 300, 40);
-	}
-});
-document.addEventListener('keydown', function (event) {
-	if (event.key == 'r') {
+	} else if (event.key == 'r') {
 		drawFigure('прямоугольник', 'blue', 100, 400, 80, 40);
 	}
+
 });
+
+
 
 
 
