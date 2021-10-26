@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+	<form action="#" name="Form1" style="margin-bottom: 50px;">
+		<div>
+			<input name="text1" type="text" value="">
+		</div>
+		<div>
+			<input name="text2" type="text" value="">
+		</div>
+		<button name="btn" type="submit">send</button>
+	</form>
+
+
+	<form action="#" name="Form2" style="margin-bottom: 50px;">
+		<div>
+			<input name="text2" type="tel" value="123-45-67">
+		</div>
+		<input name="btn" type="submit">
+	</form>
+
+
+	<form action="#" name="Form3" style="margin-bottom: 50px;">
+		<div>
+			<input name="text3" type="text" value="">
+		</div>
+		<div>
+			<input name="number1" type="checkbox">пункт 1
+		</div>
+		<div>
+			<input name="number2" type="checkbox">пункт 2
+		</div>
+		<div>
+			<input name="number3" type="checkbox">пункт 3
+		</div>
+
+		<button type="submit">Отправить</button>
+	</form>
+
+
+	<form action="#" name="Form4" style="margin-bottom: 50px;">
+		<div>
+			<input name="text4" type="text" value="">
+		</div>
+		<input name="btn" type="submit">
+	</form>
+
+
+	<form action="#" name="Form5" style="margin-bottom: 50px;">
+		<div>
+			<p>Имя</p>
+			<input name="username" type="text" placeholder="name">
+		</div>
+		<div>
+			<p>Фамилию</p>
+			<input name="surname" type="text" placeholder="surname">
+		</div>
+		<div>
+			<p>Телефона</p>
+			<input name="phone" type="tel" maxlength="13" placeholder="phone">
+		</div>
+		<div>
+			<p>Сообщение</p>
+			<textarea name="massage" placeholder="message"></textarea>
+		</div>
+		<button type="submit">Отправить</button>
+	</form>
+
+	<form class="form6" action="#" name="formCalc" style="margin-bottom: 50px;">
+		<div>
+			<p>Ввод значения</p>
+			<input name="enteredValue1" type="text" value="500">
+
+			<p>Расход/Доход</p>
+
+			<input name="enteredValue2" type="text" value="">
+
+			<div>
+				<input name="nameRadio" type="radio" value="loss">Расход
+			</div>
+
+			<div>
+				<input name="nameRadio" type="radio" value="profit">Доход
+			</div>
+
+			<button type="submit">Рассчитать</button>
+		</div>
+
+
+	</form>
+
+	<button class="modalBtn">добавить пользователя</button>
+	<div class="modal">
+		<div class="modal-content">
+			<form class="form" action="#" name="form7">
+				<div class="modal__input">
+					<div>
+						<p>Ваше имя</p>
+						<input name="nameuser" required type="text">
+					</div>
+					<div>
+						<p>Ваш возраст</p>
+						<input name="age" ” pattern="^[ 0-9]+$" required type="text">
+					</div>
+				</div>
+				<div class="modal__btn">
+
+					<button class="Btncancel" name="cancel" type="submit">ОТМЕНА </button>
+
+
+					<button class="Btnadd" name="add" type="submit">ДОБАВИТЬ</button>
+
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>

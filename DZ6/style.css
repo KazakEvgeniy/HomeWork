@@ -1,0 +1,41 @@
+.modalBtn {
+	margin: 25px 0;
+	padding: 10px;
+	font-size: 24px;
+	color: rgb(72, 177, 2);
+	border-radius: 25px;
+	cursor: pointer;
+}
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 5;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(107, 90, 90, 0.37);
+}
+.modal-content {
+	background-color: rgb(37, 175, 209);
+	margin: 15% auto;
+	width: 500px;
+	height: 150px;
+	border: 1px solid rgb(20, 20, 20);
+	padding: 20px;
+}
+.form {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.Btncancel {
+	padding: 5px 15px;
+	margin-right: 35px;
+	background-color: rgb(230, 142, 142);
+}
+.Btnadd {
+	padding: 5px 15px;
+	background-color: rgb(144, 211, 130);
+}
