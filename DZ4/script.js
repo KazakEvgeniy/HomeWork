@@ -1,4 +1,20 @@
 
+// 1 Найти в документе элемент с id “my-first-elem”
+// Найти все элементы с классом “container”
+// Найти первый элемент с классом “wrapper”
+// Найти первые 2 элемента с классом “element
+
+
+let IdElement = document.getElementById('my-first-elem');
+console.log(IdElement);
+let container = document.querySelectorAll('.container');
+console.log(container);
+let wrapper = document.querySelector('.wrapper');
+console.log(wrapper);
+let element = document.querySelectorAll('.element');
+console.log(element[0], element[1]);
+
+
 
 // Динамическое создание списка
 // Запрашивайте число у пользователя с помощью prompt.
