@@ -1,7 +1,7 @@
 
 'use strict';
 
-// Создайте метод find_index(arr, value), который принимает список(массив значений) и значение. Если значение не найдено в списке нужно сгенерировать ошибку. 
+//1 Создайте метод find_index(arr, value), который принимает список(массив значений) и значение. Если значение не найдено в списке нужно сгенерировать ошибку. 
 
 
 
@@ -13,15 +13,26 @@ try {
 	let findindex = function (arr, value) {
 
 		if (!arr.includes(value, 0)) {
-			console.log(y);
-		} else {
-			alert(value);
+			// throw ("there is no such fruit");
+			throw new Error("there is no such fruit");
+
 		}
+
+		else {
+			alert(fruit);
+		}
+
+
 	};
 	findindex(fruits, fruit);
 
 }
 
 catch (error) {
-	console.log(error.message = 'there is no such fruit');
+
+	console.log(error);
+	// console.log(error.message);
+
 }
+
+
