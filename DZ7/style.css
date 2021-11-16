@@ -1,0 +1,17 @@
+.page-one {
+	height: 100vh;
+	background-color: rgb(33, 78, 161);
+}
+.page-two {
+	height: 800px;
+	background-color: rgb(8, 189, 54);
+}
+.btn-page-two {
+	position: fixed;
+	z-index: 2;
+	bottom: 25px;
+	left: 25px;
+	cursor: pointer;
+	padding: 10px 25px;
+	display: none;
+}
